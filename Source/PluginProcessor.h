@@ -2,7 +2,7 @@
 	==============================================================================
 	This file is part of Obxd synthesizer.
 
-	Copyright © 2013-2014 Filatov Vadim
+	Copyright Â© 2013-2014 Filatov Vadim
 	
 	Contact author via email :
 	justdat_@_e1.ru
@@ -25,10 +25,10 @@
 #ifndef PLUGINPROCESSOR_H_INCLUDED
 #define PLUGINPROCESSOR_H_INCLUDED
 #include "../JuceLibraryCode/JuceHeader.h"
-#include "Engine\SynthEngine.h"
+#include "Engine/SynthEngine.h"
 #include <stack>
-#include "Engine\midiMap.h"
-#include "Engine\ObxdBank.h"
+#include "Engine/midiMap.h"
+#include "Engine/ObxdBank.h"
 
 //==============================================================================
 /**
@@ -59,8 +59,8 @@ public:
 	
 	bool hasMidiMessage;
     int midiEventPos;
-	void ObxdAudioProcessor::processMidiPerSample(MidiBuffer::Iterator* iter,const int samplePos);
-	bool ObxdAudioProcessor::getNextEvent(MidiBuffer::Iterator* iter,const int samplePos);
+	void processMidiPerSample(MidiBuffer::Iterator* iter,const int samplePos);
+	bool getNextEvent(MidiBuffer::Iterator* iter,const int samplePos);
 
     //==============================================================================
 	SynthEngine* synth;

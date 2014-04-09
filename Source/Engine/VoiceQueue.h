@@ -2,7 +2,7 @@
 	==============================================================================
 	This file is part of Obxd synthesizer.
 
-	Copyright © 2013-2014 Filatov Vadim
+	Copyright ) 2013-2014 Filatov Vadim
 	
 	Contact author via email :
 	justdat_@_e1.ru
@@ -22,7 +22,7 @@
 	==============================================================================
  */
 #pragma once
-#include "Engine\ObxdVoice.h"
+#include "ObxdVoice.h"
 class VoiceQueue
 {
 private:

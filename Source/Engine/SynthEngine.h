@@ -2,7 +2,7 @@
 	==============================================================================
 	This file is part of Obxd synthesizer.
 
-	Copyright © 2013-2014 Filatov Vadim
+	Copyright ) 2013-2014 Filatov Vadim
 	
 	Contact author via email :
 	justdat_@_e1.ru
@@ -23,7 +23,7 @@
  */
 #pragma once
 
-#include "..\PluginProcessor.h"
+#include "../PluginProcessor.h"
 #include "ObxdVoice.h"
 #include "Motherboard.h"
 #include "Params.h"
